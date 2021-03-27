@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>COVID 19</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!--PLUGIN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Kanit:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #2c3145;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        outline: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .section_all {
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        min-height: 100vh;
+    }
+
+    .section-title {
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    .section-subtitle {
+        letter-spacing: 0.4px;
+        line-height: 28px;
+        max-width: 550px;
+    }
+
+    .section-title-border {
+        background-color: #000;
+        height: 1 3px;
+        width: 44px;
+    }
+
+    .section-title-border-white {
+        background-color: #fff;
+        height: 2px;
+        width: 100px;
+    }
+
+    .text_custom {
+        color: blue;
+    }
+
+    .about_icon i {
+        font-size: 22px;
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+        display: inline-block;
+        background: #fff;
+        border-radius: 35px;
+        color: blue;
+        box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+    }
+
+    .about_header_main .about_heading {
+        max-width: 450px;
+        font-size: 24px;
+    }
+
+    .about_icon span {
+        position: relative;
+        top: -10px;
+    }
+
+    .about_content_box_all {
+        padding: 28px;
+    }
+
+    @-webkit-keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1
+        }
+    }
+
+    .caption,
+    .well,
+    .jumbotron {
+        -webkit-animation: fade;
+        -webkit-animation-duration: 5s;
+    }
+</style>
+
+<body style="background-color:#eaeaf0;">
+
+
+    <nav class="navbar navbar-default navbar-fixed-top " style="background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);     padding-top:15px;padding-bottom:15px;">
+        <div class="container-fluid">
+          <div class="navbar-header" style="height:50px; width:auto;">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>     
+            </button>
+            <a class="navbar-brand" href="#"></a>
+            <img src="images/logo.png" height=50px width=auto style="border-radius: 50%;">
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="myNavbar" >
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="index.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px; font-weight: 250; padding: 15px 15px 15px 15px;"><b>HOME</b></a></li>
+            <li><a href="aboutus.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px; font-weight: 250; padding: 15px 15px 15px 15px;"><b>ABOUT US</b></a></li>
+            <li><a href="volunteers.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px; font-weight: 250; padding: 15px 15px 15px 15px;"><b>VOLUNTEERS</b></a></li>
+      
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white;  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 15px 15px 15px;"><b>GALLERY</b><span class="caret"></span></a>
+              <ul class="dropdown-menu" style="background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); ">
+                <li><a href="photos.html" style="color:white; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>PHOTOS</b></a></li>
+                <li><a href="videos.html" style="color:white; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>VIDEOS</b></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white;  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 15px 15px 15px;"><b>WHAT WE DO?</b><span class="caret"></span></a>
+                <ul class="dropdown-menu" style="background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); ">
+                  <li><a href="events.html" style="color:white; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>EVENTS</b></a></li>
+                  <li><a href="projects.html" style="color:white; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b>PROJECTS</b></a></li>
+                  <li><a href="corona.html" style="color:white; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);  font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 5px 50px 5px 50px;"><b> COVID 19</b></a></li>
+                </ul>
+              </li>
+            <li><a href="contactus.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 15px 15px 15px;"><b>CONTACT US</b></a></li>
+            <li><a href="donation.html" style="color:white; font-family: 'Quicksand', sans-serif;font-size: 18px;font-weight: 250; padding: 15px 35px 15px 15px;"><b>DONATE</b></a></li>
+          </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <section class="section_all bg-light" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title_all text-center">
+                        <h2 style="color: blue;"><b>Corona Virus Pandemic</b>
+                        </h2>
+                        <div class="">
+                            <i class=""></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row vertical_content_manage mt-5">
+                <div class="col-lg-6">
+                    <div class="about_header_main mt-3">
+                        <h4 class="about_heading text-capitalize font-weight-bold mt-4">About Our Organisation</h4>
+                        <p class="text-muted mt-3" style="color: black;">As much as COVID-19 is a global health crisis, it is also a human crisis. Prevention such as vaccines is one of the most effective measures to mitigate such a catastrophic public health crisis. Before the availability of the vaccine, precautions such as wearing a mask can potentially reduce the virus transmission rate. Recent modelling studies suggest that timely and comprehensive precautions and care are needed to prevent a second wave of COVID-19.In a free market, the risks of not having enough masks for the general population may negatively impact the outbreak. Also, it is the time of the festive season, like Dushehra, Deepawali, Wedding season, and New-Year celebration, soon. After the removal of lockdown by the GOI, people are taking the situation lightly. So it is a peak time for making people aware that the deadliest virus is still there. The timely implementations of the public awareness program, free distribution of masks, and government advocacy and policies will decrease the COVID-19 spread as much as possible.
+                        </p>
+                        <p class="text-muted mt-3" style="color: black;">A Governing Committee consisting of 9 persons elected democratically
+                            by its
+                            General Body governs SGJSS. Elections on the board are held every five
+                            years.
+                            SGJSS runs on a fully decentralized management system headed by the
+                            Secretary,
+                            who is supported by a cadre of professional and administrative staff.
+
+                            Program and performances are monitored on a regular basis in quarterly
+                            review
+                            and planning meetings. Eminent experts from the field of management,
+                            agriculture, environment, health, women empowerment, and social work, etc.
+                            are
+                            invited to these meetings.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img_about mt-3"> 
+                        <img src="images/corona2.jpeg" alt="" height="430" class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-lg-6">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-walking"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold">Action</h5>
+                            <p class="edu_desc mt-3 mb-0 text-muted" style="color: black;">
+                                The GOI and WHO highlighted the importance of wearing the mask, and social distancing also told various dos’ and don’ts to defeat COVID-19.  SGJSS will develop a good collection of awareness materials in English, Hindi, and other local languages, depending upon the target audience.  SGJSS will target on raising awareness about symptoms and prevention, bursting myths, and encouraging social distancing. The awareness materials will include printed posters and stickers for display in hospitals and public places, short videos, social media posters, and Q&A on COVID-19, weekly community meetings, and radio announcements. SGJSS will run campaigns not only in villages and cities but also on social media such as Facebook, Instagram, Twitter, and many others, for global awareness.  SGJSS will also focus on distributing free masks to the needy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-poll"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold">Impact</h5>
+                            <p class="edu_desc mb-0 mt-3 text-muted" style="color: black;">Due to the awareness program, people will be more conscious and will take precautions.  Consequently, the spread of coronavirus will be decreased. In addition to this, the negative impact of the COVID-19 Outbreak on the socio-economic condition of the country will be minimized.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <div class="container">
+      
+                <div class="grid-container">
+                    <div class="grid-item">
+      
+                        <img src="images/logo.png" class="logo-img" style="border-radius: 50%;">
+      
+                    </div>
+      
+                    <div class="grid-item inner-grid-container">
+      
+                      <div class="grid-item"><a href="index.html">Home</a></div>
+                      <div class="grid-item"><a href="projects.html">Our Projects</a></div>
+                      <div class="grid-item"><a href="http://sgjss.co.in/">Sgjss.co.in</a></div><br>
+                      <div class="grid-item"><a href="privacy.html">Privacy Policy</a></div>
+                      <div class="grid-item"><a href="volunteersForm.html">Join Our Community</a></div>
+                      <div class="grid-item"><a href="contactus.html">Contact Us</a></div>
+                  </div>
+      
+                     <div class="grid-item">
+                    <div class = "social-buttons" style="float:left;">
+                        <a href= "https://www.instagram.com/sgjss_29/" target="_blank"><i class="fab fa-instagram circle-icon"></i></a>
+                        <a href= "https://www.facebook.com/pg/shreegurujambheswarsevasansthan/photos/?ref=page_internal" target="_blank"><i class="fab fa-facebook circle-icon"></i></a>
+                        <a href= "https://api.whatsapp.com/send/?phone=919414334192&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp circle-icon"></i></a><br>
+                        <a href= "https://www.linkedin.com/in/shree-guru-jambeshwar-sewa-sansthan-1106651b3/" target="_blank"><i class="fab fa-linkedin-in circle-icon"></i></a>
+                        <a href= "https://twitter.com/guru_sansthan" target="_blank"><i class="fab fa-twitter circle-icon"></i></a>
+                    </div>
+                </div>  
+                </div>
+                <hr>
+      
+                <p style="text-align: center;">Copyright © 2021 SGJSS | All rights reserved</p>
+      
+            </div>
+        </footer>
+
+
+
+</body>
+
+</html>

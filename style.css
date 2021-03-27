@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.header img{
+    width: 170px;
+    float: left;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+}
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0;
+}
+
+
+.input-group{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.input-group-append {
+    margin-left: -1px;
+    display: flex;
+}
+
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin:auto;
+    box-shadow: none !important;  
+}
+
+.features{
+    padding: 10px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+
+}
+.price{
+    width: 75px;
+    height: 70px;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    left: 20px;
+    bottom: -50px;
+}
+.feature-img{
+    position: relative;
+}
+.feature-img img{
+    height: 300px;
+
+}
+
+.features .fa{
+    font-size: 15px;
+    color: blue;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery-box img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(57, 192, 237, 0.2);
+    transition: transform 1s;
+}
+.gallery-box :hover{
+    transform: translate( -10px 10px);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+    background-color: rgba(57, 192, 237, 0.2);
+}
+
+.users-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 70px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    position: relative;
+    margin: -50px 0 20px 35%;
+}
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+body {
+    font-family: system-ui;
+    background: #eee;
+    text-align: center;
+  }
+  
+  
+  .site-footer {
+      margin-top: 50px; /* Remove */
+      position: relative;
+      background-color: #2a2a72;
+      background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+      width: 100%;	
+      bottom: 0; 
+  }
+  
+  .site-footer .container {
+      max-width: 85%;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 20px;
+  }
+  
+  .site-footer .container h1 {
+      font-size: 40px;
+  }
+  
+  .site-footer .container h2 {
+      font-size: 40px;
+      float: right;
+  }
+  
+  .site-footer .grid-container a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 16.25px;
+  }
+  
+  .site-footer .grid-item {
+      padding: 10px;
+      color:#fff;
+  }
+  
+  
+  .site-footer .grid-container .inner-grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: left;
+  }
+  
+  .site-footer .container hr { 
+      display: block; 
+      height: 1px;
+      border: 0; border-top: 1px solid #fff;
+      margin: 1px; 
+      padding: 0; 
+  }
+  
+  .site-footer .container p {
+      font-size: 14px;
+      text-align: right;
+      color: #fff;
+      font-weight: 500;
+  }
+  
+  .site-footer .container .logo-img {
+      width: 120px;
+      height: 100px;
+      cursor: pointer;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons {
+      padding-top: 20px;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons a {
+      display: inline-flex;
+      text-decoration: none;
+      font-size: 30px;
+      width: 60px;
+      height: 60px;
+      color: #396afc;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0 8px;
+  }
+  
+  
+  .site-footer .grid-container .grid-item .social-buttons a i{
+      transition: 0.3s ease-in;
+  }
+  
+  .site-footer .grid-container .grid-item .social-buttons a:hover i {
+      background: linear-gradient(45deg,#fff,#fff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(1.5);
+  }
+  
+  .circle-icon {
+      background: #fff;
+      padding:12px;
+      border-radius: 50%;
+  }
+  
+  
+  
+  /*------------------------------------------------------------------
+  [ Screen Sizes] */
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  
+      .site-footer {
+          height: 620px;
+          bottom: 0; 
+      }
+  
+      .site-footer .grid-container {
+          display: grid;
+          grid-template-columns: 300px;
+      }
+  
+      .site-footer .grid-container .inner-grid-container {
+          display: grid;
+          grid-template-columns: auto auto ;
+          /* text-align: center;  */
+      }
+  
+  
+  }
+  
+  /*========================================================*/
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+      .site-footer {
+          height: 260px;
+          bottom: 0;
+      }
+  
+      .site-footer .grid-container {
+          display: grid;
+          grid-template-columns: 350px auto 350px;
+      }
+  
+      .site-footer .grid-container .inner-grid-container{
+          display: grid;
+          grid-template-columns: auto auto auto auto;
+          text-align: left;
+      }
+  
+  }
+  
+  
