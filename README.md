@@ -1,5 +1,4 @@
 # SGJSS_NGO_Website
-**SGJSS**
 
 _**Take a view at => https://sgjss.netlify.app/ OR [SGJSS NGO_Website](https://maheshdbabar9340.github.io/SGJSS_NGO_Website/)**_
 
